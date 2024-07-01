@@ -33,7 +33,7 @@ const Timeline = () => {
                     <p>Published a research paper on fake news detection using logistic regression in the International Journal of Novel Research and Development (IJNRD).</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement className='vertical-timeline-element--education' iconStyle={{ background: "#000", color: "#fff" }} icon={<MdOutlineCardMembership />} date='Sept 2023 - March 2024'>
-                    <h3>NAAC Committee Member</h3>
+                    <h3>NAAC Committee Volunteer</h3>
                     <p>Contributed to the NAAC accreditation process by creating a detailed 3D model of the college. Utilized advanced modeling techniques to accurately represent campus infrastructure, enhancing the institution's presentation and evaluation.</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement className='vertical-timeline-element--education' iconStyle={{ background: "#000", color: "#fff" }} icon={<FaRegLightbulb />} date='9th December 2023'>
