@@ -1,0 +1,149 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 35;
+}
+
+.hero img {
+  width: fit-content;
+  height: 900px;
+  margin: 0;
+}
+
+.div-left {
+  margin: 0 0 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.hero h1 span a {
+  font-size: 90px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero h1 span a:hover {
+  color: #9060f0;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 0 0 70px;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 30px 0 0 20px;
+}
+
+.hero-connect {
+  padding: 15px 25px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #4df3cf -5.09%, #3322eaa4 106.28%);
+  cursor: pointer;
+}
+
+.hero-connect a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-resume {
+  padding: 15px 25px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #ede60c -5.09%, #3de859a4 106.28%);
+  cursor: pointer;
+}
+
+.hero-resume a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-connect:hover {
+  cursor: pointer;
+}
+
+.hero-resume:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    max-width: 600px;
+    overflow: hidden;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35;
+    max-width: 650px;
+    width: 100%;
+  }
+
+  .div-left {
+    margin: 0 20px 0 0;
+  }
+
+  .div-left h1 {
+    text-align: start;
+  }
+
+  .sonu a {
+    text-align: center;
+  }
+
+  .div-left p {
+    text-align: justify;
+    margin: 20px 15px 20px 15px;
+    padding: 0 5px 0 0;
+    max-width: 650px;
+    width: 100%;
+  }
+
+  .hero-action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+  }
+
+  .div-right {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  .div-right img {
+    width: 600px;
+    height: auto;
+    margin: 10px 0 0 40px;
+    background: linear-gradient(
+      180deg,
+      rgb(5, 5, 3) 0%,
+      rgb(31, 30, 28) 50%,
+      rgb(5, 5, 3) 100%
+    );
+  }
+}

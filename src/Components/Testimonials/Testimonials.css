@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.test h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  margin: 50px;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  padding: 25px;
+  border: 1px dashed white;
+  border-radius: 15px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.desc {
+  text-align: center;
+  padding: 10px;
+}
+
+.designation {
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}
+
+.card h2 {
+  font-size: 30px;
+  color: #3de859a4;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .test h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .card{
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+    height: 500px;
+  }
+}
